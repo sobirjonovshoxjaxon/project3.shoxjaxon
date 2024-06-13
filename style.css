@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section#homepage .header{
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    color: black;
+}
+
+.header .registration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.header .registration p{
+    margin-bottom: 0;
+    font: 500 17px sans-serif;
+}
+
+.header .registration p a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.header .registration p a:hover{
+    color: blue;
+}
+
+.header .registration .icons{   
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .registration .icons a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.header .registration .icons i:hover{
+    transition: 0.3s;
+}
+
+.header .registration .icons i:hover{
+    color: blue;
+}
+
+.header .contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.contacts .phone-contacts a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font: 500 17 sans-serif;
+}
+
+.contacts .phone-contacts a:hover{
+    color: blue;
+}
+
+.contacts .email-contacts a{
+    text-decoration: none;
+    color: black;
+    font: 500 17px sans-serif;
+    transition: 0.3s;
+}
+
+.contacts .email-contacts a:hover{
+    color: blue;
+}
